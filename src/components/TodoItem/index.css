@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.delete-btn {
+  color: #ff0b37;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid #ff0b37;
+}
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+p {
+  color: #000000;
+  font-size: 15px;
+  font-family: roboto;
+  font-weight: 600;
+  margin-right: 12px;
+}
